@@ -853,6 +853,10 @@ video {
   align-items: center;
 }
 
+.justify-start{
+  justify-content: flex-start;
+}
+
 .justify-end{
   justify-content: flex-end;
 }
@@ -1186,6 +1190,10 @@ video {
 @media not all and (min-width: 640px){
   .max-sm\:w-full{
     width: 100%;
+  }
+
+  .max-sm\:w-1\/2{
+    width: 50%;
   }
 
   .\*\:max-sm\:h-auto > *{
